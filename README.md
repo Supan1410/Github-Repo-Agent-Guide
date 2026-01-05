@@ -58,10 +58,10 @@ python repo_summarizer.py owner/repo --gemini-key AIzaSy...
 ```bash
 pip install PyGithub google-genai python-dotenv
 ```
-
+### Run:
 ```bash
-python main.py full Supan1410/Amazon_clone_soc
-python main.py full owner/repo --github-token ghp_xxx
+python main.py owner/repo
+python main.py owner/repo --github-token ghp_xxx
 ``` 
 
 ### Summary Output Includes:
@@ -92,7 +92,7 @@ python main.py full owner/repo --github-token ghp_xxx
 ### Quick Start:
 ```bash
 cd Week_2
-python main.py summarize owner/reponame
+python main.py owner/reponame
 ```
 
 ---
